@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mohanth</folder>
+	<filename>GBWA-20180402122855.jpg</filename>
+	<path>/Users/mohanth/Desktop/Mohanth/GBWA-20180402122855.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1080</width>
+		<height>870</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mohanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>220</xmin>
+			<ymin>14</ymin>
+			<xmax>931</xmax>
+			<ymax>714</ymax>
+		</bndbox>
+	</object>
+</annotation>

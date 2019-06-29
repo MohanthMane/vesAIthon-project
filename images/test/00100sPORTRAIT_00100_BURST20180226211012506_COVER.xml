@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mohanth</folder>
+	<filename>00100sPORTRAIT_00100_BURST20180226211012506_COVER.jpg</filename>
+	<path>/Users/mohanth/Desktop/Mohanth/00100sPORTRAIT_00100_BURST20180226211012506_COVER.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2448</width>
+		<height>3264</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mohanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>97</xmin>
+			<ymin>603</ymin>
+			<xmax>1219</xmax>
+			<ymax>2347</ymax>
+		</bndbox>
+	</object>
+</annotation>

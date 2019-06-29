@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Srimanth</folder>
+	<filename>DSC01094.jpg</filename>
+	<path>/Users/mohanth/Desktop/Srimanth/DSC01094.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>5184</width>
+		<height>3888</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>srimanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3041</xmin>
+			<ymin>809</ymin>
+			<xmax>4329</xmax>
+			<ymax>2097</ymax>
+		</bndbox>
+	</object>
+</annotation>

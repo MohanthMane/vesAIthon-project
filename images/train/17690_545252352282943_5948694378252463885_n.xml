@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Srimanth</folder>
+	<filename>17690_545252352282943_5948694378252463885_n.jpg</filename>
+	<path>/Users/mohanth/Desktop/Srimanth/17690_545252352282943_5948694378252463885_n.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>647</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>srimanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>331</xmin>
+			<ymin>54</ymin>
+			<xmax>419</xmax>
+			<ymax>153</ymax>
+		</bndbox>
+	</object>
+</annotation>

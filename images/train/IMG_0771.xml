@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mohanth</folder>
+	<filename>IMG_0771.jpg</filename>
+	<path>/Users/mohanth/Desktop/Mohanth/IMG_0771.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>761</width>
+		<height>1159</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mohanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>4</ymin>
+			<xmax>338</xmax>
+			<ymax>261</ymax>
+		</bndbox>
+	</object>
+</annotation>

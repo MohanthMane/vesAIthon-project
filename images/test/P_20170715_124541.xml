@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Srimanth</folder>
+	<filename>P_20170715_124541.jpg</filename>
+	<path>/Users/mohanth/Desktop/Srimanth/P_20170715_124541.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>900</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>srimanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>522</xmin>
+			<ymin>367</ymin>
+			<xmax>796</xmax>
+			<ymax>627</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Srimanth</folder>
+	<filename>IMG_20180908_142421.jpg</filename>
+	<path>/Users/mohanth/Desktop/Srimanth/IMG_20180908_142421.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4608</width>
+		<height>3456</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>srimanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3740</xmin>
+			<ymin>804</ymin>
+			<xmax>4145</xmax>
+			<ymax>1319</ymax>
+		</bndbox>
+	</object>
+</annotation>

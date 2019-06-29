@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mohanth</folder>
+	<filename>IMG-20180609-WA0015.jpg</filename>
+	<path>/Users/mohanth/Desktop/Mohanth/IMG-20180609-WA0015.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>780</width>
+		<height>1040</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mohanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>156</xmin>
+			<ymin>131</ymin>
+			<xmax>522</xmax>
+			<ymax>551</ymax>
+		</bndbox>
+	</object>
+</annotation>

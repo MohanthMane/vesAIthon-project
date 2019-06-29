@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mohanth</folder>
+	<filename>IMG_2443.png</filename>
+	<path>/Users/mohanth/Desktop/Mohanth/IMG_2443.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1242</width>
+		<height>2208</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mohanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>185</xmin>
+			<ymin>588</ymin>
+			<xmax>647</xmax>
+			<ymax>1141</ymax>
+		</bndbox>
+	</object>
+</annotation>

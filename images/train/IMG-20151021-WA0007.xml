@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Srimanth</folder>
+	<filename>IMG-20151021-WA0007.jpg</filename>
+	<path>/Users/mohanth/Desktop/Srimanth/IMG-20151021-WA0007.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>1200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>srimanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>360</xmin>
+			<ymin>237</ymin>
+			<xmax>594</xmax>
+			<ymax>506</ymax>
+		</bndbox>
+	</object>
+</annotation>

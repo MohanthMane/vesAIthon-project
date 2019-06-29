@@ -2,12 +2,14 @@ import os
 import cv2
 import schedule
 from time import sleep
+import time
 import numpy as np
 # from picamera.array import PiRGBArray
 # from picamera import PiCamera
 import tensorflow as tf
 import argparse
 import sys
+from train_person import generate_mappings
 from feedback import give_feedback
 
 # IM_WIDTH = 1280
@@ -15,6 +17,7 @@ from feedback import give_feedback
 IM_WIDTH = 640
 IM_HEIGHT = 480
 feedbacks = {}
+object_mappings = {}
 THRESHOLD_SECONDS = 10
 
 camera_type = 'picamera'
@@ -28,8 +31,11 @@ if args.usbcam:
 # This is needed since the working directory is the object_detection folder.
 sys.path.append('..')
 
+tik = time.time()
 from utils import label_map_util
 from utils import visualization_utils as vis_util
+tok = time.time()
+print("Utils time : " + str(tok-tik))
 
 MODEL_NAME = 'ssd_mobilenet_v1_coco_2017_11_17'
 
@@ -41,11 +47,17 @@ PATH_TO_LABELS = os.path.join(CWD_PATH,'data','mscoco_label_map.pbtxt')
 
 NUM_CLASSES = 90
 
+tik = time.time()
 label_map = label_map_util.load_labelmap(PATH_TO_LABELS)
 categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES, use_display_name=True)
 category_index = label_map_util.create_category_index(categories)
 
 
+object_mappings = generate_mappings(category_index)
+tok = time.time()
+print("generated mappings : " + str(tok-tik))
+
+tik = time.time()
 detection_graph = tf.Graph()
 with detection_graph.as_default():
     od_graph_def = tf.GraphDef()
@@ -55,8 +67,11 @@ with detection_graph.as_default():
         tf.import_graph_def(od_graph_def, name='')
 
     sess = tf.Session(graph=detection_graph)
+tok = time.time()
+print("Detection graph time : " + str(tok-tik))
 
 
+tik = time.time()
 # Input tensor is the image
 image_tensor = detection_graph.get_tensor_by_name('image_tensor:0')
 
@@ -71,7 +86,8 @@ num_detections = detection_graph.get_tensor_by_name('num_detections:0')
 frame_rate_calc = 1
 freq = cv2.getTickFrequency()
 font = cv2.FONT_HERSHEY_SIMPLEX
-
+tok = time.time()
+print("loading tensors : " + str(tok-tik))
 
 def reinstantiate():
     global feedbacks

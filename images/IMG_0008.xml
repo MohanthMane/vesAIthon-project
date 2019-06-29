@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mohanth</folder>
+	<filename>IMG_0008.jpg</filename>
+	<path>/Users/mohanth/Desktop/Mohanth/IMG_0008.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2576</width>
+		<height>1932</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mohanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1893</xmin>
+			<ymin>885</ymin>
+			<xmax>2511</xmax>
+			<ymax>1605</ymax>
+		</bndbox>
+	</object>
+</annotation>

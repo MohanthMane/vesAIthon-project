@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Srimanth</folder>
+	<filename>P_20171120_154217_BF.jpg</filename>
+	<path>/Users/mohanth/Desktop/Srimanth/P_20171120_154217_BF.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3264</width>
+		<height>1836</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>srimanth</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>319</ymin>
+			<xmax>793</xmax>
+			<ymax>1043</ymax>
+		</bndbox>
+	</object>
+</annotation>

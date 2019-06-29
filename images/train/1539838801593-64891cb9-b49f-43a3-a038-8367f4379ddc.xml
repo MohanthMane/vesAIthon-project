@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mohanth</folder>
+	<filename>1539838801593-64891cb9-b49f-43a3-a038-8367f4379ddc.jpg</filename>
+	<path>/Users/mohanth/Desktop/Mohanth/1539838801593-64891cb9-b49f-43a3-a038-8367f4379ddc.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3000</width>
+		<height>2000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mohanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1100</xmin>
+			<ymin>136</ymin>
+			<xmax>1800</xmax>
+			<ymax>829</ymax>
+		</bndbox>
+	</object>
+</annotation>

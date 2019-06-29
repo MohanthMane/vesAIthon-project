@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mohanth</folder>
+	<filename>IMG-20181201-WA0003.jpg</filename>
+	<path>/Users/mohanth/Desktop/Mohanth/IMG-20181201-WA0003.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>960</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mohanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>745</xmin>
+			<ymin>139</ymin>
+			<xmax>932</xmax>
+			<ymax>345</ymax>
+		</bndbox>
+	</object>
+</annotation>

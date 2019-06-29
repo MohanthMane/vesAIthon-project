@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Srimanth</folder>
+	<filename>IMG_20180601_092102540_HDR.jpg</filename>
+	<path>/Users/mohanth/Desktop/Srimanth/IMG_20180601_092102540_HDR.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4032</width>
+		<height>3024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>srimanth</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1239</xmin>
+			<ymin>390</ymin>
+			<xmax>1653</xmax>
+			<ymax>804</ymax>
+		</bndbox>
+	</object>
+</annotation>
