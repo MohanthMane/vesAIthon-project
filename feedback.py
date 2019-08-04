@@ -6,6 +6,7 @@ import time
 
 
 (H,W) = (480,640)
+#threshold confidence
 THRESHOLD_CONFIDENCE = 0.4
 
 X,Y = 40,25
